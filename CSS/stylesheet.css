@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #ded2c2;
+  border: 4px dotted #828684;
+  text-shadow: 4px 4px #ffffff;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #c2c9c9;
+  position: sticky;
+  top: 0px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 40px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  background-color: #d08a55;
+}
+
+.content {
+  width: 50%;
+  height: 800px;
+  float: left;
+}
+
+.section {
+  height: 400px;
+  text-align: center;
+  background-color: #ebb48e;
+}
+
+.article {
+  height: 400px;
+  text-align: center;
+  background-color: #d08a55;
+  box-shadow: 5px 10px;
+}
+
+.aside {
+  height: 800px;
+  text-align: center;
+  background-color: cornsilk;
+  background-image: url("../Images/leaf.jpg");
+  background-size: cover;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: #819582;
+  clear: both;
+}
