@@ -3,36 +3,37 @@
   height: 100px;
   text-align: center;
   background-color: #ded2c2;
-  border: 4px dotted #828684;
+  /* border: 4px dotted #828684; */
   text-shadow: 4px 4px #ffffff;
+  padding: 50px;
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 10px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 10px;
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: lighter;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .navbar {
   width: 100%;
   height: 100px;
   text-align: center;
-  background-color: #c2c9c9;
+  background-color: #819582;
   position: sticky;
   top: 0px;
 }
 
 li {
   display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  font-weight:normal;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
   letter-spacing: 2px;
   font-size: 16pt;
   text-align: center;
@@ -41,6 +42,7 @@ li {
 
 a:link {
   text-decoration: none;
+  color: #ded2c2;
 }
 
 a:visited {
@@ -49,6 +51,12 @@ a:visited {
 
 a:hover {
   background-color: #d08a55;
+}
+
+video {
+  width: 600px;
+  height: 400px;
+  padding-top: 20px;
 }
 
 .content {
