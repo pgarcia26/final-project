@@ -32,13 +32,49 @@
       </li>
       <li><a href="./contact.html" target="">CONTACT</a></li>
     </nav>
-    <div class="content">
-      <section class="section"></section>
-      <article class="article"></article>
-    </div>
-    <div class="content">
-      <aside class="aside"></aside>
-    </div>
+    <form class="contact-form">
+      <label for="fname">Name</label>
+      <br />
+      <input type="text" name="name" placeholder="Your name..." />
+      <br />
+      <label for="email">Email</label>
+      <br />
+      <input type="text" name="email" placeholder="Your email..." />
+      <br />
+      <label for="subject">Subject</label>
+      <br />
+      <textarea
+        name="subject"
+        placeholder="Type your message here..."
+        style="height: 200px"
+      ></textarea>
+      <br />
+      <button type="button" class="button contactbutton" onclick="alert">
+        Submit!
+      </button>
+    </form>
+
+    <!-- <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div> -->
     <footer class="footer">
       <a href="https://www.instagram.com/tybsoclay/" target="blank"
         ><i class="fab fa-instagram"></i
